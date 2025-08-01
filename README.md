@@ -33,3 +33,5 @@ It follows the 2024 edition of Rust (1.85.0 or newer).
 
 - [Official Rust Book](https://doc.rust-lang.org/stable/book/)  
 - [Rust Playground](https://play.rust-lang.org/)
+- https://behililmoh.github.io/BEHILIL-MOHAMED-SALAH/
+- 👉 [Mon GitHub](https://github.com/behililmoh)
