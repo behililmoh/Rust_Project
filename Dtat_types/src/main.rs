@@ -41,4 +41,24 @@ println!("Active:{}, Disable:{}", is_active,  is_disable);
 
      println!("Lettre: {}, Emoji: {}, Symbole: {}", letter, emoji, symbol);
 
+     //Numeric Operations
+
+        //addition
+    let _sum =5+10;
+    //subtraction 
+    let _difference =95.5-4.3;
+    //multiplication
+    let _produit= 4/30;
+    //division
+    let _quotent =56.7/32.2;
+    let _truncated = -5/3;
+    //remainder
+    let _remainder = 43%5;
+//that message looks like a compiler or build error — probably related to Rust, right?
+//This happens when Rust’s macro system sees a variable like remainder but doesn't recognize 
+//it as a proper field or identifier. If you're using something like format_args!, println!,
+// or a custom macro and passing a named argument that isn't used in the format string,
+// Rust expects you to prefix it with an underscore if it's intentional.
+
+
 }
