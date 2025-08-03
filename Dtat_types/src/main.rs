@@ -22,7 +22,7 @@ println!("the value of x: {} and the value of  y is:{}",x ,y);
 //                    | Arch   |  isize| usize     |
 
 //Floating-point
-let _a: f32=2.15;//simple precision
+let _a: f32=2.14;//simple precision
 let _b =-2.718;// double precision
 println!("{} et {}",_a,_b);
 
