@@ -54,7 +54,11 @@ println!("Active:{}, Disable:{}", is_active,  is_disable);
     let _truncated = -5/3;
     //remainder
     let _remainder = 43%5;
-//that message looks like a compiler or build error — probably related to Rust, right?
+//🦀In Rust, the underscore (_) in a variable name has a special meaning.
+//1. Ignore an unused :variable When you write code with a variable that you are not going to use,
+// Rust raises a warning. To say 'I know this variable exists, but I don't need it', you can prefix its name with an _.
+//📌 2. The _ alone as a variable name You can also simply use _ to indicate that you don't want to name the value at all
+//📌 3. In matches, Rust uses _ as a wildcard to match anything that does not correspond to the other cases
 //This happens when Rust’s macro system sees a variable like remainder but doesn't recognize 
 //it as a proper field or identifier. If you're using something like format_args!, println!,
 // or a custom macro and passing a named argument that isn't used in the format string,
