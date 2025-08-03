@@ -20,6 +20,7 @@ println!("the value of x: {} and the value of  y is:{}",x ,y);
 //                    | 64-bit |   i64 | u64       | 
 //                    | 128-bit|   i128| u128      |
 //                    | Arch   |  isize| usize     |
+//                    |--------|-------|-----------| 
 
 //Floating-point
 let _a: f32=2.14;//simple precision
@@ -63,6 +64,7 @@ println!("Active:{}, Disable:{}", is_active,  is_disable);
 //it as a proper field or identifier. If you're using something like format_args!, println!,
 // or a custom macro and passing a named argument that isn't used in the format string,
 // Rust expects you to prefix it with an underscore if it's intentional.
-
+	
+//end of first part
 
 }
