@@ -9,7 +9,14 @@ fn main(){
      let a =tup.0;
      let b=tup.1;
      let c =tup.2;
-     print!("{} - {} - {}",a ,b , c);
+     println!("{} - {} - {}",a ,b , c);
+     
+     //The Array Type
+     //Another way to have a collection of multiple values is with an array.
+     let a=[1,2,0,4,5];
+     for i in a.iter(){
+        println!("{}",i);
+     }
 
      
 }    
