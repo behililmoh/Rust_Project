@@ -49,7 +49,7 @@ println!("Active:{}, Disable:{}", is_active,  is_disable);
     //subtraction 
     let _difference =95.5-4.3;
     //multiplication
-    let _produit= 4/30;
+    let _produit= 6/30;
     //division
     let _quotent =56.7/32.2;
     let _truncated = -5/3;
