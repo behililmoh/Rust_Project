@@ -1,7 +1,7 @@
 use std::io;
 
 fn main(){
-    let tup =(500, 6.4, 1);
+    let tup =(600, 6.4, 1);
     let (x,y ,z)=tup;
    
      println!("the valus of y is :{}",y);
