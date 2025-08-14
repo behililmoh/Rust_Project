@@ -1,3 +1,5 @@
+//use std::result;
+
 fn main(){
 let number =3;
 //true condition
@@ -21,6 +23,7 @@ if number!=0{
     println!("number was somthing other then zero");
 }
 //Multiple Conditions with else if
+println!("Multiple Conditions with else if");
  let number3 =6;
  if number3 %4==0{
      println!("number is divisible by 4");
@@ -39,8 +42,40 @@ if number!=0{
 
 
  //The provided Rust code will not compile.The if and else blocks in a Rust if expression must return values of the same type
-//  let condition2 = true;
+//let condition2 = true;
  //let number5 =if condition2{5}else{"six"};
  //println!("the value of number  is {}",number5);
 
+ //Repeating Code with loop
+
+let mut counter = 0;
+let result=loop{
+    counter+=1;
+    if counter ==10{
+        break counter *2;
+    }
+};
+println!("the result id {}",result);
+
+//loop label to Disambiguate Between Multiple loop
+println!("loop label to Disambiguate Between Multiple loop");
+let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+    println!("End count = {count}");
 }
