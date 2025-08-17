@@ -78,4 +78,12 @@ let mut count = 0;
         count += 1;
     }
     println!("End count = {count}");
+
+//Conditional Loops with while
+let mut numb=3;
+while numb!=0{
+    println!("{}",numb);
+    numb -=1;
+}
+println!("LIFTOOFF!");
 }
