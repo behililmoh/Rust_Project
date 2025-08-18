@@ -1,5 +1,7 @@
 //use std::result;
 
+//use std::ops::Index;
+
 fn main(){
 let number =3;
 //true condition
@@ -85,5 +87,14 @@ while numb!=0{
     println!("{}",numb);
     numb -=1;
 }
-println!("LIFTOOFF!");
+println!("LIFTOFF!!!");
+
+//Looping Through a Collection with for
+let b= [10, 20, 30, 40, 50];
+let mut index =0;
+let mut Index = 0;
+while index < 5 {
+    println!("the valeur is :{}", b[index]);
+    index +=1;
+}
 }
