@@ -97,4 +97,10 @@ while index < 5 {
     println!("the valeur is :{}", b[index]);
     index +=1;
 }
+//Looping through each element of a collection using a for loop
+let b2 =[10,20,30,40,50];
+for element in b2{
+    println!("the value of b2 is :{}", {element})
+}
+
 }
