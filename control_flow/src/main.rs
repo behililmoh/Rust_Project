@@ -102,5 +102,5 @@ let b2 =[10,20,30,40,50];
 for element in b2{
     println!("the value of b2 is :{}", {element})
 }
-
+//wow
 }
