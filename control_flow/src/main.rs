@@ -92,7 +92,7 @@ println!("LIFTOFF!!!");
 //Looping Through a Collection with for
 let b= [10, 20, 30, 40, 50];
 let mut index =0;
-let mut Index = 0;
+
 while index < 5 {
     println!("the valeur is :{}", b[index]);
     index +=1;
@@ -102,5 +102,10 @@ let b2 =[10,20,30,40,50];
 for element in b2{
     println!("the value of b2 is :{}", {element})
 }
-//wow
+//Contdown
+for number in(1..4).rev(){
+    println!("{}",number);
+}
+println!("LIFTOFF!!!");
+
 }
